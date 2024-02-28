@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/CMakeFiles/bootloader
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/CMakeFiles/bootloader.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/CMakeFiles/bootloader-complete.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
