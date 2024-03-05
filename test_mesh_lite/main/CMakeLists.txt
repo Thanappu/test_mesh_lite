@@ -26,6 +26,7 @@ set(srcs            main.cpp
 					# ${lib_dir}/image/segmentation.cpp
 					# ${lib_dir}/image/cropobject.cpp
 					# ${lib_dir}/tools/debug.cpp)
+					
 
 set(include_dirs    .
                     #${proj_dir}/driver/include

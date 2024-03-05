@@ -80,8 +80,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-E57Zoj"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-E57Zoj"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-PjPQ8q"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-PjPQ8q"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -91,10 +91,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-E57Zoj'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-PjPQ8q'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8bc7a
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls     -v -o CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c89a0
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls     -v -o CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc
         Target: xtensa-esp32s3-elf
@@ -102,8 +102,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1 -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8bc7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccdiEVL3.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1 -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c89a0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccnXJMzm.s
         GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32s3-elf)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -124,12 +124,12 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c7e3739faac6d38f1fcb941fed5c7cde
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccdiEVL3.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccnXJMzm.s
         COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/
         LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls -v CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -o cmTC_8bc7a   && :
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls -v CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -o cmTC_c89a0   && :
         Using built-in specs.
         COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper
@@ -140,9 +140,9 @@ events:
         gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
         COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/
         LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_8bc7a' '-dumpdir' 'cmTC_8bc7a.'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccFt2FpF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_8bc7a /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_8bc7a' '-dumpdir' 'cmTC_8bc7a.'
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_c89a0' '-dumpdir' 'cmTC_c89a0.'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccBxH5oi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_c89a0 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_c89a0' '-dumpdir' 'cmTC_c89a0.'
         
       exitCode: 0
   -
@@ -178,10 +178,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(xtensa-esp32s3-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-E57Zoj']
+        ignore line: [Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-PjPQ8q']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8bc7a]
-        ignore line: [[1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls     -v -o CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c89a0]
+        ignore line: [[1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls     -v -o CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc]
         ignore line: [Target: xtensa-esp32s3-elf]
@@ -189,8 +189,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/']
-        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1 -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8bc7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccdiEVL3.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/']
+        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1 -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c89a0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccnXJMzm.s]
         ignore line: [GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32s3-elf)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -211,12 +211,12 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c7e3739faac6d38f1fcb941fed5c7cde]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/']
-        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccdiEVL3.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/']
+        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccnXJMzm.s]
         ignore line: [COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls -v CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -o cmTC_8bc7a   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls -v CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -o cmTC_c89a0   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper]
@@ -227,27 +227,27 @@ events:
         ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
         ignore line: [COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_8bc7a' '-dumpdir' 'cmTC_8bc7a.']
-        link line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccFt2FpF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_8bc7a /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_c89a0' '-dumpdir' 'cmTC_c89a0.']
+        link line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccBxH5oi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_c89a0 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccFt2FpF.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccBxH5oi.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8bc7a] ==> ignore
+          arg [cmTC_c89a0] ==> ignore
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib]
-          arg [CMakeFiles/cmTC_8bc7a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_c89a0.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -279,8 +279,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8eWKtc"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8eWKtc"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-KU3t6Q"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-KU3t6Q"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls "
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -290,10 +290,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8eWKtc'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-KU3t6Q'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e9cf8
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls     -v -o CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b7552
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls     -v -o CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++
         Target: xtensa-esp32s3-elf
@@ -301,8 +301,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e9cf8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccql0nHW.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7552.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccPhzbZ7.s
         GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32s3-elf)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -329,12 +329,12 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: ebc6dbfb84238b854649daed158678ce
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccql0nHW.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccPhzbZ7.s
         COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/
         LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls -v CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_e9cf8   && :
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls -v CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b7552   && :
         Using built-in specs.
         COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++
         COLLECT_LTO_WRAPPER=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper
@@ -345,9 +345,9 @@ events:
         gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
         COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/
         LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_e9cf8' '-dumpdir' 'cmTC_e9cf8.'
-         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccMmu9CU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_e9cf8 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_e9cf8' '-dumpdir' 'cmTC_e9cf8.'
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_b7552' '-dumpdir' 'cmTC_b7552.'
+         /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccGC8gzv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_b7552 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_b7552' '-dumpdir' 'cmTC_b7552.'
         
       exitCode: 0
   -
@@ -389,10 +389,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(xtensa-esp32s3-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8eWKtc']
+        ignore line: [Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-KU3t6Q']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e9cf8]
-        ignore line: [[1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls     -v -o CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b7552]
+        ignore line: [[1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls     -v -o CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++]
         ignore line: [Target: xtensa-esp32s3-elf]
@@ -400,8 +400,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/']
-        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e9cf8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccql0nHW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/']
+        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/ /opt/homebrew/Cellar/cmake/3.27.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7552.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccPhzbZ7.s]
         ignore line: [GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32s3-elf)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -428,12 +428,12 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: ebc6dbfb84238b854649daed158678ce]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/']
-        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccql0nHW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/']
+        ignore line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccPhzbZ7.s]
         ignore line: [COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls -v CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_e9cf8   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls -v CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b7552   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper]
@@ -444,27 +444,27 @@ events:
         ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
         ignore line: [COMPILER_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_e9cf8' '-dumpdir' 'cmTC_e9cf8.']
-        link line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccMmu9CU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_e9cf8 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_b7552' '-dumpdir' 'cmTC_b7552.']
+        link line: [ /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2 -plugin /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccGC8gzv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_b7552 /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0 -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtend.o /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtn.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/12.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccMmu9CU.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/49/qj64x8fx685b33tjhffrfysw0000gn/T//ccGC8gzv.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e9cf8] ==> ignore
+          arg [cmTC_b7552] ==> ignore
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crti.o]
           arg [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o] ==> obj [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/crtbegin.o]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc]
           arg [-L/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib] ==> dir [/Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/lib]
-          arg [CMakeFiles/cmTC_e9cf8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_b7552.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -497,8 +497,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8UienY"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8UienY"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-We4R0l"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-We4R0l"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -508,11 +508,11 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8UienY'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-We4R0l'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fa0bf
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_fa0bf.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-8UienY/CheckIncludeFile.c
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_fa0bf.dir/CheckIncludeFile.c.obj -o cmTC_fa0bf   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f64a6
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_f64a6.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-We4R0l/CheckIncludeFile.c
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_f64a6.dir/CheckIncludeFile.c.obj -o cmTC_f64a6   && :
         
       exitCode: 0
   -
@@ -524,8 +524,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-nQkmvd"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-nQkmvd"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-03eKko"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-03eKko"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -535,11 +535,11 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-nQkmvd'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-03eKko'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d53ed
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_d53ed.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-nQkmvd/CheckIncludeFile.c
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_d53ed.dir/CheckIncludeFile.c.obj -o cmTC_d53ed   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4ccce
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_4ccce.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-03eKko/CheckIncludeFile.c
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_4ccce.dir/CheckIncludeFile.c.obj -o cmTC_4ccce   && :
         
       exitCode: 0
   -
@@ -551,8 +551,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-51ozP5"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-51ozP5"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-7NtIyh"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-7NtIyh"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -562,11 +562,11 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-51ozP5'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-7NtIyh'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_01219
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_01219.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-51ozP5/CheckIncludeFile.c
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_01219.dir/CheckIncludeFile.c.obj -o cmTC_01219   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_44ff9
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_44ff9.dir/CheckIncludeFile.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-7NtIyh/CheckIncludeFile.c
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_44ff9.dir/CheckIncludeFile.c.obj -o cmTC_44ff9   && :
         
       exitCode: 0
   -
@@ -578,8 +578,8 @@ events:
     checks:
       - "Check size of time_t"
     directories:
-      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-DPVLle"
-      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-DPVLle"
+      source: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-antZfK"
+      binary: "/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-antZfK"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -589,11 +589,11 @@ events:
       variable: "HAVE_TIME_T_SIZE"
       cached: true
       stdout: |
-        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-DPVLle'
+        Change Dir: '/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-antZfK'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_76033
-        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_76033.dir/TIME_T_SIZE.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-DPVLle/TIME_T_SIZE.c
-        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_76033.dir/TIME_T_SIZE.c.obj -o cmTC_76033   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e882b
+        [1/2] /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls -o CMakeFiles/cmTC_e882b.dir/TIME_T_SIZE.c.obj -c /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-antZfK/TIME_T_SIZE.c
+        [2/2] : && /Users/thanapoompumee/esp/esp-idf-v5.1/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  CMakeFiles/cmTC_e882b.dir/TIME_T_SIZE.c.obj -o cmTC_e882b   && :
         
       exitCode: 0
 ...

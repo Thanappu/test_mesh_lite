@@ -409,6 +409,56 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__cmake_utilities/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_modem/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__usb_host_cdc_acm/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_modem_usb_dte/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__tinyusb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_tinyusb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/usb_device/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__iot_bridge/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__mesh_lite/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/main/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/esp32-camera/cmake_install.cmake")
 endif()
 

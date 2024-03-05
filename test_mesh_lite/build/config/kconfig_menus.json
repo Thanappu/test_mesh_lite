@@ -24683,6 +24683,2776 @@
                 "id": "component-config-wi-fi-provisioning-manager",
                 "title": "Wi-Fi Provisioning Manager",
                 "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the OV7670.\nDisable this option to save memory.",
+                        "id": "OV7670_SUPPORT",
+                        "name": "OV7670_SUPPORT",
+                        "range": null,
+                        "title": "Support OV7670 VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the OV7725.\nDisable this option to save memory.",
+                        "id": "OV7725_SUPPORT",
+                        "name": "OV7725_SUPPORT",
+                        "range": null,
+                        "title": "Support OV7725 VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the NT99141.\nDisable this option to save memory.",
+                        "id": "NT99141_SUPPORT",
+                        "name": "NT99141_SUPPORT",
+                        "range": null,
+                        "title": "Support NT99141 HD",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the OV2640.\nDisable this option to save memory.",
+                        "id": "OV2640_SUPPORT",
+                        "name": "OV2640_SUPPORT",
+                        "range": null,
+                        "title": "Support OV2640 2MP",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the OV3360.\nDisable this option to save memory.",
+                        "id": "OV3660_SUPPORT",
+                        "name": "OV3660_SUPPORT",
+                        "range": null,
+                        "title": "Support OV3660 3MP",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the OV5640.\nDisable this option to save memory.",
+                        "id": "OV5640_SUPPORT",
+                        "name": "OV5640_SUPPORT",
+                        "range": null,
+                        "title": "Support OV5640 5MP",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the GC2145.\nDisable this option to save memory.",
+                        "id": "GC2145_SUPPORT",
+                        "name": "GC2145_SUPPORT",
+                        "range": null,
+                        "title": "Support GC2145 2MP",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the GC032A.\nDisable this option to save memory.",
+                        "id": "GC032A_SUPPORT",
+                        "name": "GC032A_SUPPORT",
+                        "range": null,
+                        "title": "Support GC032A VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the GC0308.\nDisable this option to save memory.",
+                        "id": "GC0308_SUPPORT",
+                        "name": "GC0308_SUPPORT",
+                        "range": null,
+                        "title": "Support GC0308 VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the BF3005.\nDisable this option to save memory.",
+                        "id": "BF3005_SUPPORT",
+                        "name": "BF3005_SUPPORT",
+                        "range": null,
+                        "title": "Support BF3005(BYD3005) VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the BF20A6.\nDisable this option to save memory.",
+                        "id": "BF20A6_SUPPORT",
+                        "name": "BF20A6_SUPPORT",
+                        "range": null,
+                        "title": "Support BF20A6(BYD20A6) VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice SC101_REGS_SELECT>",
+                                        "help": "Select this option means that when xclk is 20M, the frame rate is 15fps at 720p resolution.",
+                                        "id": "SC101IOT_720P_15FPS_ENABLED",
+                                        "name": "SC101IOT_720P_15FPS_ENABLED",
+                                        "range": null,
+                                        "title": "xclk20M_720p_15fps",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice SC101_REGS_SELECT>",
+                                        "help": "Select this option means that when xclk is 20M, the frame rate is 25fps at VGA resolution.",
+                                        "id": "SC101IOT_VGA_25FPS_ENABLED",
+                                        "name": "SC101IOT_VGA_25FPS_ENABLED",
+                                        "range": null,
+                                        "title": "xclk20M_VGA_25fps",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "SC101IOT_SUPPORT",
+                                "help": "Currently SC010iot has several register sets available.\nSelect the one that matches your needs.",
+                                "id": "component-config-camera-configuration-support-sc101iot-hd-sc101iot-default-regs",
+                                "name": "SC101_REGS_SELECT",
+                                "title": "SC101iot default regs",
+                                "type": "choice"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the SC101IOT.\nDisable this option to save memory.",
+                        "id": "SC101IOT_SUPPORT",
+                        "name": "SC101IOT_SUPPORT",
+                        "range": null,
+                        "title": "Support SC101IOT HD",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option if you want to use the SC030IOT.\nDisable this option to save memory.",
+                        "id": "SC030IOT_SUPPORT",
+                        "name": "SC030IOT_SUPPORT",
+                        "range": null,
+                        "title": "Support SC030IOT VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "SC031GS is a global shutter CMOS sensor with high frame rate and single-frame HDR.\nEnable this option if you want to use the SC031GS.\nDisable this option to save memory.",
+                        "id": "SC031GS_SUPPORT",
+                        "name": "SC031GS_SUPPORT",
+                        "range": null,
+                        "title": "Support SC031GS VGA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice SCCB_HARDWARE_I2C_PORT>",
+                                "help": null,
+                                "id": "SCCB_HARDWARE_I2C_PORT0",
+                                "name": "SCCB_HARDWARE_I2C_PORT0",
+                                "range": null,
+                                "title": "I2C0",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice SCCB_HARDWARE_I2C_PORT>",
+                                "help": null,
+                                "id": "SCCB_HARDWARE_I2C_PORT1",
+                                "name": "SCCB_HARDWARE_I2C_PORT1",
+                                "range": null,
+                                "title": "I2C1",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "component-config-camera-configuration-i2c-peripheral-to-use-for-sccb",
+                        "name": "SCCB_HARDWARE_I2C_PORT",
+                        "title": "I2C peripheral to use for SCCB",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Increasing this value can reduce the initialization time of the sensor.\nPlease refer to the relevant instructions of the sensor to adjust the value.",
+                        "id": "SCCB_CLK_FREQ",
+                        "name": "SCCB_CLK_FREQ",
+                        "range": [
+                            100000,
+                            400000
+                        ],
+                        "title": "SCCB clk frequency",
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice GC_SENSOR_WINDOW_MODE>",
+                                "help": null,
+                                "id": "GC_SENSOR_WINDOWING_MODE",
+                                "name": "GC_SENSOR_WINDOWING_MODE",
+                                "range": null,
+                                "title": "Windowing Mode",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice GC_SENSOR_WINDOW_MODE>",
+                                "help": null,
+                                "id": "GC_SENSOR_SUBSAMPLE_MODE",
+                                "name": "GC_SENSOR_SUBSAMPLE_MODE",
+                                "range": null,
+                                "title": "Subsample Mode",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": "GC2145_SUPPORT || GC032A_SUPPORT || GC0308_SUPPORT",
+                        "help": "This option determines how to reduce the output size when the resolution you set is less than the maximum resolution.\nSUBSAMPLE_MODE has a bigger perspective and WINDOWING_MODE has a higher frame rate.",
+                        "id": "component-config-camera-configuration-galaxycore-sensor-window-mode",
+                        "name": "GC_SENSOR_WINDOW_MODE",
+                        "title": "GalaxyCore Sensor Window Mode",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Camera task stack size",
+                        "id": "CAMERA_TASK_STACK_SIZE",
+                        "name": "CAMERA_TASK_STACK_SIZE",
+                        "range": null,
+                        "title": "CAM task stack size",
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice CAMERA_TASK_PINNED_TO_CORE>",
+                                "help": null,
+                                "id": "CAMERA_CORE0",
+                                "name": "CAMERA_CORE0",
+                                "range": null,
+                                "title": "CORE0",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice CAMERA_TASK_PINNED_TO_CORE>",
+                                "help": null,
+                                "id": "CAMERA_CORE1",
+                                "name": "CAMERA_CORE1",
+                                "range": null,
+                                "title": "CORE1",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice CAMERA_TASK_PINNED_TO_CORE>",
+                                "help": null,
+                                "id": "CAMERA_NO_AFFINITY",
+                                "name": "CAMERA_NO_AFFINITY",
+                                "range": null,
+                                "title": "NO_AFFINITY",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Pin the camera handle task to a certain core(0/1). It can also be done automatically choosing NO_AFFINITY.",
+                        "id": "component-config-camera-configuration-camera-task-pinned-to-core",
+                        "name": "CAMERA_TASK_PINNED_TO_CORE",
+                        "title": "Camera task pinned to core",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Maximum value of DMA buffer\nLarger values may fail to allocate due to insufficient contiguous memory blocks, and smaller value may cause DMA interrupt to be too frequent.",
+                        "id": "CAMERA_DMA_BUFFER_SIZE_MAX",
+                        "name": "CAMERA_DMA_BUFFER_SIZE_MAX",
+                        "range": [
+                            8192,
+                            32768
+                        ],
+                        "title": "DMA buffer size",
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice CAMERA_CONV_PROTOCOL>",
+                                        "help": null,
+                                        "id": "LCD_CAM_CONV_BT601_ENABLED",
+                                        "name": "LCD_CAM_CONV_BT601_ENABLED",
+                                        "range": null,
+                                        "title": "BT601",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice CAMERA_CONV_PROTOCOL>",
+                                        "help": null,
+                                        "id": "LCD_CAM_CONV_BT709_ENABLED",
+                                        "name": "LCD_CAM_CONV_BT709_ENABLED",
+                                        "range": null,
+                                        "title": "BT709",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "CAMERA_CONVERTER_ENABLED",
+                                "help": "Supports format conversion under both BT601 and BT709 standards.",
+                                "id": "component-config-camera-configuration-enable-camera-rgb-yuv-converter-camera-converter-protocol",
+                                "name": "CAMERA_CONV_PROTOCOL",
+                                "title": "Camera converter protocol",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "CAMERA_CONVERTER_ENABLED",
+                                "help": "Supports format conversion under both full color range mode and limited color range mode.\nIf full color range mode is selected, the color range of RGB or YUV is 0~255.\nIf limited color range mode is selected, the color range of RGB is 16~240, and the color range of YUV is Y[16~240], UV[16~235].\nFull color range mode has a wider color range, so details in the image show more clearly.\nPlease confirm the color range mode of the current camera sensor, incorrect color range mode may cause color difference in the final converted image.\nFull range mode is used by default. If this option is not selected, the format conversion function will be done using the limited range mode.",
+                                "id": "LCD_CAM_CONV_FULL_RANGE_ENABLED",
+                                "name": "LCD_CAM_CONV_FULL_RANGE_ENABLED",
+                                "range": null,
+                                "title": "Camera converter full range mode",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": "IDF_TARGET_ESP32S3",
+                        "help": "Enable this option if you want to use RGB565/YUV422/YUV420/YUV411 format conversion.",
+                        "id": "CAMERA_CONVERTER_ENABLED",
+                        "name": "CAMERA_CONVERTER_ENABLED",
+                        "range": null,
+                        "title": "Enable camera RGB/YUV converter",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "IDF_TARGET_ESP32S2 || IDF_TARGET_ESP32S3",
+                        "help": "If this option is enabled, camera ISR will execute from IRAM.",
+                        "id": "LCD_CAM_ISR_IRAM_SAFE",
+                        "name": "LCD_CAM_ISR_IRAM_SAFE",
+                        "range": null,
+                        "title": "Execute camera ISR from IRAM",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-camera-configuration",
+                "title": "Camera configuration",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "CU_RELINKER_ENABLE",
+                                "help": "\"Enable this option to print error information instead of\n    throwing exception when missing function\"",
+                                "id": "CU_RELINKER_ENABLE_PRINT_ERROR_INFO_WHEN_MISSING_FUNCTION",
+                                "name": "CU_RELINKER_ENABLE_PRINT_ERROR_INFO_WHEN_MISSING_FUNCTION",
+                                "range": null,
+                                "title": "Print error information when missing function",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "CU_RELINKER_ENABLE_CUSTOMIZED_CONFIGURATION_FILES && CU_RELINKER_ENABLE",
+                                        "help": "\"Customized relinker configuration files path. This path is\nevaluated relative to the project root directory.\"",
+                                        "id": "CU_RELINKER_CUSTOMIZED_CONFIGURATION_FILES_PATH",
+                                        "name": "CU_RELINKER_CUSTOMIZED_CONFIGURATION_FILES_PATH",
+                                        "range": null,
+                                        "title": "Customized relinker configuration files path",
+                                        "type": "string"
+                                    }
+                                ],
+                                "depends_on": "CU_RELINKER_ENABLE",
+                                "help": "\"Enable this option to use customized relinker configuration\nfiles instead of default ones\"",
+                                "id": "CU_RELINKER_ENABLE_CUSTOMIZED_CONFIGURATION_FILES",
+                                "name": "CU_RELINKER_ENABLE_CUSTOMIZED_CONFIGURATION_FILES",
+                                "range": null,
+                                "title": "Enable customized relinker configuration files",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "\"Enable relinker to linker some IRAM functions to Flash\"",
+                        "id": "CU_RELINKER_ENABLE",
+                        "name": "CU_RELINKER_ENABLE",
+                        "range": null,
+                        "title": "Enable relinker",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice CU_DIAGNOSTICS_COLOR>",
+                                "help": null,
+                                "id": "CU_DIAGNOSTICS_COLOR_NEVER",
+                                "name": "CU_DIAGNOSTICS_COLOR_NEVER",
+                                "range": null,
+                                "title": "never",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice CU_DIAGNOSTICS_COLOR>",
+                                "help": null,
+                                "id": "CU_DIAGNOSTICS_COLOR_ALWAYS",
+                                "name": "CU_DIAGNOSTICS_COLOR_ALWAYS",
+                                "range": null,
+                                "title": "always",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice CU_DIAGNOSTICS_COLOR>",
+                                "help": null,
+                                "id": "CU_DIAGNOSTICS_COLOR_AUTO",
+                                "name": "CU_DIAGNOSTICS_COLOR_AUTO",
+                                "range": null,
+                                "title": "auto",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Use color in diagnostics. \"never\", \"always\", or \"auto\". If \"always\", GCC will output\nwith color defined in GCC_COLORS environment variable. If \"never\", only output plain\ntext. If \"auto\", only output with color when the standard error is a terminal and when\nnot executing in an emacs shell.",
+                        "id": "component-config-cmake-utilities-color-in-diagnostics",
+                        "name": "CU_DIAGNOSTICS_COLOR",
+                        "title": "Color in diagnostics",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "\"Enable this option, users can enable GCC link time optimization(LTO)\n feature for target components or dependencies.",
+                        "id": "CU_GCC_LTO_ENABLE",
+                        "name": "CU_GCC_LTO_ENABLE",
+                        "range": null,
+                        "title": "Enable GCC link time optimization(LTO)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "\"Enable this option, user can make string in designated components align\n by 1-byte instead 1-word(4-byte), this can reduce unnecessary filled data\n so that to reduce firmware size.\"",
+                        "id": "CU_GCC_STRING_1BYTE_ALIGN",
+                        "name": "CU_GCC_STRING_1BYTE_ALIGN",
+                        "range": null,
+                        "title": "GCC string 1-byte align",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-cmake-utilities",
+                "title": "CMake Utilities",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "If enabled (default), the esp-modem automatically defragments CMUX messages\nto only pass the completed CMUX message to higher layers.\nThis is useful for messages in command mode (if they're received fragmented).\nIt's not a problem for messages in data mode as the upper layer (PPP protocol)\ndefines message boundaries.\nKeep the default to true for most cases (as most devices use simply 1 byte CMUX\nlength, as the internal Rx buffer of size >= 256 bytes won't overflow)\nSet to false if your devices uses 2 byte CMUX payload (e.g. A7672S).\nThe operation would work without an issue in data mode, but some replies\nin command mode might come fragmented in rare cases so might need to retry\nAT commands.",
+                        "id": "ESP_MODEM_CMUX_DEFRAGMENT_PAYLOAD",
+                        "name": "ESP_MODEM_CMUX_DEFRAGMENT_PAYLOAD",
+                        "range": null,
+                        "title": "Defragment CMUX messages internally",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "If enabled we will process the ongoing AT command by growing the current\nbuffer (if we've run out the preconfigured buffer).\nIf disabled, we simply report a failure.\nUse this if additional allocation is not a problem and you need to reliably process\nall commands, usually with sporadically longer responses than the configured buffer.\nCould be also used to defragment AT replies in CMUX mode if CMUX_DEFRAGMENT_PAYLOAD=n",
+                        "id": "ESP_MODEM_USE_INFLATABLE_BUFFER_IF_NEEDED",
+                        "name": "ESP_MODEM_USE_INFLATABLE_BUFFER_IF_NEEDED",
+                        "range": null,
+                        "title": "Use inflatable buffer in DCE",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Some devices might need a pause before sending SABM command that creates\nvirtual terminal. This delay applies only to establishing a CMUX mode.\nThe typical reason for failing SABM request without a delay is that\nsome devices (SIM800) send MSC requests just after opening a new DLCI.",
+                        "id": "ESP_MODEM_CMUX_DELAY_AFTER_DLCI_SETUP",
+                        "name": "ESP_MODEM_CMUX_DELAY_AFTER_DLCI_SETUP",
+                        "range": null,
+                        "title": "Delay in ms to wait before creating another virtual terminal",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "If enabled, the CMUX protocol would only use 1 byte size field.\nYou can use this option for devices that support only short CMUX payloads\nto make the protocol more robust on noisy environments or when underlying\ntransport gets corrupted often (for example by Rx buffer overflows)",
+                        "id": "ESP_MODEM_CMUX_USE_SHORT_PAYLOADS_ONLY",
+                        "name": "ESP_MODEM_CMUX_USE_SHORT_PAYLOADS_ONLY",
+                        "range": null,
+                        "title": "CMUX to support only short payloads (<128 bytes)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "ESP_MODEM_ADD_CUSTOM_MODULE",
+                                "help": "Name of the header file in the main component which implements esp_modem_create_custom_dce()\ncalled from C-API for creating esp_modem_dce object.\nThis header provides definition of the custom module with some additional and/or updated commands\nand API. It also defines creation of DCE based on this custom module, typically calling:\ndce_factory::Factory::create_unique_dce_from<CustomModule, DCE*>(dce_config, std::move(dte), netif)\nPlease refer to the pppos_client example for more details.",
+                                "id": "ESP_MODEM_CUSTOM_MODULE_HEADER",
+                                "name": "ESP_MODEM_CUSTOM_MODULE_HEADER",
+                                "range": null,
+                                "title": "Header file name which defines custom DCE creation",
+                                "type": "string"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "If enabled, we adapt the C-API to create a DCE from a user defined class",
+                        "id": "ESP_MODEM_ADD_CUSTOM_MODULE",
+                        "name": "ESP_MODEM_ADD_CUSTOM_MODULE",
+                        "range": null,
+                        "title": "Add support for custom module in C-API",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-esp-modem",
+                "title": "esp-modem",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Specify verbosity of TinyUSB log output.",
+                        "id": "TINYUSB_DEBUG_LEVEL",
+                        "name": "TINYUSB_DEBUG_LEVEL",
+                        "range": [
+                            0,
+                            3
+                        ],
+                        "title": "TinyUSB log level (0-3)",
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice TINYUSB_RHPORT>",
+                                "help": null,
+                                "id": "TINYUSB_RHPORT_HS",
+                                "name": "TINYUSB_RHPORT_HS",
+                                "range": null,
+                                "title": "HS",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": "IDF_TARGET_ESP32P4",
+                        "help": "Allows set the USB PHY Controller for TinyUSB: HS (USB OTG2.0 PHY for HighSpeed)",
+                        "id": "component-config-tinyusb-stack-tinyusb-phy",
+                        "name": "TINYUSB_RHPORT",
+                        "title": "TinyUSB PHY",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "This option allows to not create the FreeRTOS task during the driver initialization.\nUser will have to handle TinyUSB events manually.",
+                                "id": "TINYUSB_NO_DEFAULT_TASK",
+                                "name": "TINYUSB_NO_DEFAULT_TASK",
+                                "range": null,
+                                "title": "Do not create a TinyUSB task",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!TINYUSB_NO_DEFAULT_TASK",
+                                "help": "Set the priority of the default TinyUSB main task.",
+                                "id": "TINYUSB_TASK_PRIORITY",
+                                "name": "TINYUSB_TASK_PRIORITY",
+                                "range": null,
+                                "title": "TinyUSB task priority",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!TINYUSB_NO_DEFAULT_TASK",
+                                "help": "Set the stack size of the default TinyUSB main task.",
+                                "id": "TINYUSB_TASK_STACK_SIZE",
+                                "name": "TINYUSB_TASK_STACK_SIZE",
+                                "range": null,
+                                "title": "TinyUSB task stack size (bytes)",
+                                "type": "int"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_TASK_AFFINITY>",
+                                        "help": null,
+                                        "id": "TINYUSB_TASK_AFFINITY_NO_AFFINITY",
+                                        "name": "TINYUSB_TASK_AFFINITY_NO_AFFINITY",
+                                        "range": null,
+                                        "title": "No affinity",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_TASK_AFFINITY>",
+                                        "help": null,
+                                        "id": "TINYUSB_TASK_AFFINITY_CPU0",
+                                        "name": "TINYUSB_TASK_AFFINITY_CPU0",
+                                        "range": null,
+                                        "title": "CPU0",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "!FREERTOS_UNICORE && <choice TINYUSB_TASK_AFFINITY>",
+                                        "help": null,
+                                        "id": "TINYUSB_TASK_AFFINITY_CPU1",
+                                        "name": "TINYUSB_TASK_AFFINITY_CPU1",
+                                        "range": null,
+                                        "title": "CPU1",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "!TINYUSB_NO_DEFAULT_TASK",
+                                "help": "Allows setting TinyUSB tasks affinity, i.e. whether the task is pinned to\nCPU0, pinned to CPU1, or allowed to run on any CPU.",
+                                "id": "component-config-tinyusb-stack-tinyusb-task-configuration-tinyusb-task-affinity",
+                                "name": "TINYUSB_TASK_AFFINITY",
+                                "title": "TinyUSB task affinity",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": null,
+                                "id": "TINYUSB_TASK_AFFINITY",
+                                "name": "TINYUSB_TASK_AFFINITY",
+                                "range": null,
+                                "title": null,
+                                "type": "hex"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!TINYUSB_NO_DEFAULT_TASK",
+                                "help": "Run TinyUSB stack initialization just after starting the default TinyUSB task.\nThis is especially useful in multicore scenarios, when we need to pin the task\nto a specific core and, at the same time initialize TinyUSB stack\n(i.e. install interrupts) on the same core.",
+                                "id": "TINYUSB_INIT_IN_DEFAULT_TASK",
+                                "name": "TINYUSB_INIT_IN_DEFAULT_TASK",
+                                "range": null,
+                                "title": "Initialize TinyUSB stack within the default TinyUSB task",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-tinyusb-task-configuration",
+                        "title": "TinyUSB task configuration",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Enable this option, USB device will use Espressif's vendor ID as its VID.\nThis is helpful at product develop stage.",
+                                "id": "TINYUSB_DESC_USE_ESPRESSIF_VID",
+                                "name": "TINYUSB_DESC_USE_ESPRESSIF_VID",
+                                "range": null,
+                                "title": "VID: Use Espressif's vendor ID",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!TINYUSB_DESC_USE_ESPRESSIF_VID",
+                                "help": "Custom Vendor ID.",
+                                "id": "TINYUSB_DESC_CUSTOM_VID",
+                                "name": "TINYUSB_DESC_CUSTOM_VID",
+                                "range": null,
+                                "title": "VID: Custom vendor ID",
+                                "type": "hex"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Default TinyUSB PID assigning uses values 0x4000...0x4007.",
+                                "id": "TINYUSB_DESC_USE_DEFAULT_PID",
+                                "name": "TINYUSB_DESC_USE_DEFAULT_PID",
+                                "range": null,
+                                "title": "PID: Use a default PID assigned to TinyUSB",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!TINYUSB_DESC_USE_DEFAULT_PID",
+                                "help": "Custom Product ID.",
+                                "id": "TINYUSB_DESC_CUSTOM_PID",
+                                "name": "TINYUSB_DESC_CUSTOM_PID",
+                                "range": null,
+                                "title": "PID: Custom product ID",
+                                "type": "hex"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Version of the firmware of the USB device.",
+                                "id": "TINYUSB_DESC_BCD_DEVICE",
+                                "name": "TINYUSB_DESC_BCD_DEVICE",
+                                "range": null,
+                                "title": "bcdDevice",
+                                "type": "hex"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Name of the manufacturer of the USB device.",
+                                "id": "TINYUSB_DESC_MANUFACTURER_STRING",
+                                "name": "TINYUSB_DESC_MANUFACTURER_STRING",
+                                "range": null,
+                                "title": "Manufacturer name",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Name of the USB device.",
+                                "id": "TINYUSB_DESC_PRODUCT_STRING",
+                                "name": "TINYUSB_DESC_PRODUCT_STRING",
+                                "range": null,
+                                "title": "Product name",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Serial number of the USB device.",
+                                "id": "TINYUSB_DESC_SERIAL_STRING",
+                                "name": "TINYUSB_DESC_SERIAL_STRING",
+                                "range": null,
+                                "title": "Serial string",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "TINYUSB_CDC_ENABLED",
+                                "help": "Name of the CDC device.",
+                                "id": "TINYUSB_DESC_CDC_STRING",
+                                "name": "TINYUSB_DESC_CDC_STRING",
+                                "range": null,
+                                "title": "CDC Device String",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "TINYUSB_MSC_ENABLED",
+                                "help": "Name of the MSC device.",
+                                "id": "TINYUSB_DESC_MSC_STRING",
+                                "name": "TINYUSB_DESC_MSC_STRING",
+                                "range": null,
+                                "title": "MSC Device String",
+                                "type": "string"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-descriptor-configuration",
+                        "title": "Descriptor configuration",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_MSC_ENABLED",
+                                        "help": "MSC FIFO size, in bytes.",
+                                        "id": "TINYUSB_MSC_BUFSIZE",
+                                        "name": "TINYUSB_MSC_BUFSIZE",
+                                        "range": null,
+                                        "title": "MSC FIFO size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_MSC_ENABLED",
+                                        "help": "MSC Mount Path of storage.",
+                                        "id": "TINYUSB_MSC_MOUNT_PATH",
+                                        "name": "TINYUSB_MSC_MOUNT_PATH",
+                                        "range": null,
+                                        "title": "Mount Path",
+                                        "type": "string"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": "Enable TinyUSB MSC feature.",
+                                "id": "TINYUSB_MSC_ENABLED",
+                                "name": "TINYUSB_MSC_ENABLED",
+                                "range": null,
+                                "title": "Enable TinyUSB MSC feature",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-massive-storage-class-msc-",
+                        "title": "Massive Storage Class (MSC)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_CDC_ENABLED",
+                                        "help": "Number of independent serial ports.",
+                                        "id": "TINYUSB_CDC_COUNT",
+                                        "name": "TINYUSB_CDC_COUNT",
+                                        "range": null,
+                                        "title": "CDC Channel Count",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_CDC_ENABLED",
+                                        "help": "CDC FIFO size of RX channel.",
+                                        "id": "TINYUSB_CDC_RX_BUFSIZE",
+                                        "name": "TINYUSB_CDC_RX_BUFSIZE",
+                                        "range": null,
+                                        "title": "CDC FIFO size of RX channel",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_CDC_ENABLED",
+                                        "help": "CDC FIFO size of TX channel.",
+                                        "id": "TINYUSB_CDC_TX_BUFSIZE",
+                                        "name": "TINYUSB_CDC_TX_BUFSIZE",
+                                        "range": null,
+                                        "title": "CDC FIFO size of TX channel",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": "Enable TinyUSB CDC feature.",
+                                "id": "TINYUSB_CDC_ENABLED",
+                                "name": "TINYUSB_CDC_ENABLED",
+                                "range": null,
+                                "title": "Enable TinyUSB CDC feature",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-communication-device-class-cdc-",
+                        "title": "Communication Device Class (CDC)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Setting value greater than 0 will enable TinyUSB MIDI feature.",
+                                "id": "TINYUSB_MIDI_COUNT",
+                                "name": "TINYUSB_MIDI_COUNT",
+                                "range": [
+                                    0,
+                                    2
+                                ],
+                                "title": "TinyUSB MIDI interfaces count",
+                                "type": "int"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-musical-instrument-digital-interface-midi-",
+                        "title": "Musical Instrument Digital Interface (MIDI)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Setting value greater than 0 will enable TinyUSB HID feature.",
+                                "id": "TINYUSB_HID_COUNT",
+                                "name": "TINYUSB_HID_COUNT",
+                                "range": [
+                                    0,
+                                    4
+                                ],
+                                "title": "TinyUSB HID interfaces count",
+                                "type": "int"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-human-interface-device-class-hid-",
+                        "title": "Human Interface Device Class (HID)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_DFU_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_DFU_MODE_DFU",
+                                        "name": "TINYUSB_DFU_MODE_DFU",
+                                        "range": null,
+                                        "title": "DFU",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_DFU_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_DFU_MODE_DFU_RUNTIME",
+                                        "name": "TINYUSB_DFU_MODE_DFU_RUNTIME",
+                                        "range": null,
+                                        "title": "DFU Runtime",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_DFU_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_DFU_MODE_NONE",
+                                        "name": "TINYUSB_DFU_MODE_NONE",
+                                        "range": null,
+                                        "title": "None",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": "Select which DFU driver you want to use.",
+                                "id": "component-config-tinyusb-stack-device-firmware-upgrade-dfu--dfu-mode",
+                                "name": "TINYUSB_DFU_MODE",
+                                "title": "DFU mode",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "TINYUSB_DFU_MODE_DFU",
+                                "help": "DFU XFER BUFFSIZE.",
+                                "id": "TINYUSB_DFU_BUFSIZE",
+                                "name": "TINYUSB_DFU_BUFSIZE",
+                                "range": null,
+                                "title": "DFU XFER BUFFSIZE",
+                                "type": "int"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-device-firmware-upgrade-dfu-",
+                        "title": "Device Firmware Upgrade (DFU)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_BTH_ENABLED",
+                                        "help": "BTH ISO ALT COUNT.",
+                                        "id": "TINYUSB_BTH_ISO_ALT_COUNT",
+                                        "name": "TINYUSB_BTH_ISO_ALT_COUNT",
+                                        "range": null,
+                                        "title": "BTH ISO ALT COUNT",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": "Enable TinyUSB BTH feature.",
+                                "id": "TINYUSB_BTH_ENABLED",
+                                "name": "TINYUSB_BTH_ENABLED",
+                                "range": null,
+                                "title": "Enable TinyUSB BTH feature",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-bluetooth-host-class-bth-",
+                        "title": "Bluetooth Host Class (BTH)",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_NET_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_NET_MODE_ECM_RNDIS",
+                                        "name": "TINYUSB_NET_MODE_ECM_RNDIS",
+                                        "range": null,
+                                        "title": "ECM/RNDIS",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_NET_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_NET_MODE_NCM",
+                                        "name": "TINYUSB_NET_MODE_NCM",
+                                        "range": null,
+                                        "title": "NCM",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice TINYUSB_NET_MODE>",
+                                        "help": null,
+                                        "id": "TINYUSB_NET_MODE_NONE",
+                                        "name": "TINYUSB_NET_MODE_NONE",
+                                        "range": null,
+                                        "title": "None",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": "Select network driver you want to use.",
+                                "id": "component-config-tinyusb-stack-network-driver-ecm-ncm-rndis--network-mode",
+                                "name": "TINYUSB_NET_MODE",
+                                "title": "Network mode",
+                                "type": "choice"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-tinyusb-stack-network-driver-ecm-ncm-rndis-",
+                        "title": "Network driver (ECM/NCM/RNDIS)",
+                        "type": "menu"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-tinyusb-stack",
+                "title": "TinyUSB Stack",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "BRIDGE_ENABLE",
+                        "name": "BRIDGE_ENABLE",
+                        "range": null,
+                        "title": "Bridge Enable",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "BRIDGE_WIFI_PMF_DISABLE",
+                        "name": "BRIDGE_WIFI_PMF_DISABLE",
+                        "range": null,
+                        "title": "Wi-Fi PMF Disable",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_EXTERNAL_NETIF_STATION",
+                                        "help": null,
+                                        "id": "BRIDGE_STATION_CANCEL_AUTO_CONNECT_WHEN_DISCONNECTED",
+                                        "name": "BRIDGE_STATION_CANCEL_AUTO_CONNECT_WHEN_DISCONNECTED",
+                                        "range": null,
+                                        "title": "Wi-Fi station do not automatically connect Wi-Fi when disconnected",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "help": null,
+                                "id": "BRIDGE_EXTERNAL_NETIF_STATION",
+                                "name": "BRIDGE_EXTERNAL_NETIF_STATION",
+                                "range": null,
+                                "title": "Use Wi-Fi station interface to connect to the external network",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": null,
+                                "id": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "name": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "range": null,
+                                "title": "Use 4G modem interface to connect to the external network",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_ETHERNET\" and \"BRIDGE_DATA_FORWARDING_NETIF_ETHERNET\" cannot be enabled simultaneously at the moment.",
+                                "id": "BRIDGE_EXTERNAL_NETIF_ETHERNET",
+                                "name": "BRIDGE_EXTERNAL_NETIF_ETHERNET",
+                                "range": null,
+                                "title": "Use ethernet interface to connect to the external network. Please disable BRIDGE_DATA_FORWARDING_NETIF_ETHERNET first",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_SPI\",\n\"BRIDGE_EXTERNAL_NETIF_SDIO\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SPI\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SDIO\" are currently not supported to be enabled simultaneously.",
+                                "id": "BRIDGE_EXTERNAL_NETIF_SPI",
+                                "name": "BRIDGE_EXTERNAL_NETIF_SPI",
+                                "range": null,
+                                "title": "Use SPI interface to connect to the external network. Please note that SPI Netif and SDIO Netif cannot be enabled simultaneously.",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "IDF_TARGET_ESP32 || IDF_TARGET_ESP32C6",
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_SPI\",\n\"BRIDGE_EXTERNAL_NETIF_SDIO\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SPI\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SDIO\" are currently not supported to be enabled simultaneously.",
+                                "id": "BRIDGE_EXTERNAL_NETIF_SDIO",
+                                "name": "BRIDGE_EXTERNAL_NETIF_SDIO",
+                                "range": null,
+                                "title": "Use SDIO interface to connect to the external network. Please note that SPI Netif and SDIO Netif cannot be enabled simultaneously.",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-bridge-configuration-the-interface-used-to-connect-to-the-external-network",
+                        "title": "The interface used to connect to the external network",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": null,
+                                "id": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                "name": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                "range": null,
+                                "title": "Use Wi-Fi SoftAP interface to provide network data forwarding for other devices",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "id": "component-config-bridge-configuration-the-interface-used-to-provide-network-data-forwarding-for-other-devices-bridge_custom_softap-is-enabled-please-configure-softap-in-by-custom-softap-menu-",
+                                "title": "BRIDGE_CUSTOM_SOFTAP is enabled, please configure SoftAP in \"By custom SoftAP menu\"",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                        "help": "SSID of ESP-Bridge SoftAP.",
+                                        "id": "BRIDGE_SOFTAP_SSID",
+                                        "name": "BRIDGE_SOFTAP_SSID",
+                                        "range": null,
+                                        "title": "SoftAP SSID",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                        "help": "password of ESP-Bridge SoftAP.",
+                                        "id": "BRIDGE_SOFTAP_PASSWORD",
+                                        "name": "BRIDGE_SOFTAP_PASSWORD",
+                                        "range": null,
+                                        "title": "SoftAP Password",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                        "help": "Add MAC to the end of SSID",
+                                        "id": "BRIDGE_SOFTAP_SSID_END_WITH_THE_MAC",
+                                        "name": "BRIDGE_SOFTAP_SSID_END_WITH_THE_MAC",
+                                        "range": null,
+                                        "title": "SoftAP SSID ends with the MAC",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                        "help": null,
+                                        "id": "BRIDGE_SOFTAP_CONNECT_NUMBER_RANGE_MAX",
+                                        "name": "BRIDGE_SOFTAP_CONNECT_NUMBER_RANGE_MAX",
+                                        "range": null,
+                                        "title": null,
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                        "help": "CONFIG_LWIP_DHCPS_MAX_STATION_NUM must be greater than or equal to BRIDGE_SOFTAP_MAX_CONNECT_NUMBER",
+                                        "id": "BRIDGE_SOFTAP_MAX_CONNECT_NUMBER",
+                                        "name": "BRIDGE_SOFTAP_MAX_CONNECT_NUMBER",
+                                        "range": [
+                                            1,
+                                            8
+                                        ],
+                                        "title": "Maximum number of connections per node",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                                "id": "component-config-bridge-configuration-the-interface-used-to-provide-network-data-forwarding-for-other-devices-softap-config",
+                                "title": "SoftAP Config",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "IDF_TARGET_ESP32S2 || IDF_TARGET_ESP32S3",
+                                "help": null,
+                                "id": "BRIDGE_DATA_FORWARDING_NETIF_USB",
+                                "name": "BRIDGE_DATA_FORWARDING_NETIF_USB",
+                                "range": null,
+                                "title": "Use USB interface to provide network data forwarding for other devices",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!BRIDGE_EXTERNAL_NETIF_ETHERNET",
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_ETHERNET\" and \"BRIDGE_DATA_FORWARDING_NETIF_ETHERNET\" cannot be enabled simultaneously at the moment.",
+                                "id": "BRIDGE_DATA_FORWARDING_NETIF_ETHERNET",
+                                "name": "BRIDGE_DATA_FORWARDING_NETIF_ETHERNET",
+                                "range": null,
+                                "title": "Use ethernet interface to provide network data forwarding for other devices",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_SPI\",\n\"BRIDGE_EXTERNAL_NETIF_SDIO\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SPI\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SDIO\" are currently not supported to be enabled simultaneously.",
+                                "id": "BRIDGE_DATA_FORWARDING_NETIF_SPI",
+                                "name": "BRIDGE_DATA_FORWARDING_NETIF_SPI",
+                                "range": null,
+                                "title": "Use SPI interface to provide network data forwarding for other devices. Please note that SPI Netif and SDIO Netif cannot be enabled simultaneously.",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "IDF_TARGET_ESP32 || IDF_TARGET_ESP32C6",
+                                "help": "\"BRIDGE_EXTERNAL_NETIF_SPI\",\n\"BRIDGE_EXTERNAL_NETIF_SDIO\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SPI\",\n\"BRIDGE_DATA_FORWARDING_NETIF_SDIO\" are currently not supported to be enabled simultaneously.",
+                                "id": "BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "name": "BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "range": null,
+                                "title": "Use SDIO interface to provide network data forwarding for other devices. Please note that SPI Netif and SDIO Netif cannot be enabled simultaneously.",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-bridge-configuration-the-interface-used-to-provide-network-data-forwarding-for-other-devices",
+                        "title": "The interface used to provide network data forwarding for other devices",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "BRIDGE_GPIO_RANGE_MIN",
+                        "name": "BRIDGE_GPIO_RANGE_MIN",
+                        "range": null,
+                        "title": null,
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "BRIDGE_GPIO_RANGE_MAX",
+                        "name": "BRIDGE_GPIO_RANGE_MAX",
+                        "range": null,
+                        "title": null,
+                        "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "IDF_TARGET_ESP32 && <choice BRIDGE_ETHERNET_TYPE>",
+                                        "help": "Use internal Ethernet MAC controller.",
+                                        "id": "BRIDGE_USE_INTERNAL_ETHERNET",
+                                        "name": "BRIDGE_USE_INTERNAL_ETHERNET",
+                                        "range": null,
+                                        "title": "Internal EMAC",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_ETHERNET_TYPE>",
+                                        "help": "Use external SPI-Ethernet module(s).",
+                                        "id": "BRIDGE_USE_SPI_ETHERNET",
+                                        "name": "BRIDGE_USE_SPI_ETHERNET",
+                                        "range": null,
+                                        "title": "SPI Ethernet",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET",
+                                "help": "Select which kind of Ethernet will be used in the ESP-Bridge.",
+                                "id": "component-config-bridge-configuration-eth-configuration-ethernet-type",
+                                "name": "BRIDGE_ETHERNET_TYPE",
+                                "title": "Ethernet Type",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                        "help": "IP101 is a single port 10/100 MII/RMII/TP/Fiber Fast Ethernet Transceiver.\nGoto http://www.icplus.com.tw/pp-IP101G.html for more information about it.",
+                                        "id": "BRIDGE_ETH_PHY_IP101",
+                                        "name": "BRIDGE_ETH_PHY_IP101",
+                                        "range": null,
+                                        "title": "IP101",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                        "help": "RTL8201F/SR8201F is a single port 10/100Mb Ethernet Transceiver with auto MDIX.\nGoto http://www.corechip-sz.com/productsview.asp?id=22 for more information about it.",
+                                        "id": "BRIDGE_ETH_PHY_RTL8201",
+                                        "name": "BRIDGE_ETH_PHY_RTL8201",
+                                        "range": null,
+                                        "title": "RTL8201/SR8201",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                        "help": "Below chips are supported:\nLAN8710A is a small footprint MII/RMII 10/100 Ethernet Transceiver with HP Auto-MDIX and\n    flexPWR\u00ae Technology.\nLAN8720A is a small footprint RMII 10/100 Ethernet Transceiver with HP Auto-MDIX Support.\nLAN8740A/LAN8741A is a small footprint MII/RMII 10/100 Energy Efficient Ethernet Transceiver\n    with HP Auto-MDIX and flexPWR\u00ae Technology.\nLAN8742A is a small footprint RMII 10/100 Ethernet Transceiver with HP Auto-MDIX and\n    flexPWR\u00ae Technology.\nGoto https://www.microchip.com for more information about them.",
+                                        "id": "BRIDGE_ETH_PHY_LAN87XX",
+                                        "name": "BRIDGE_ETH_PHY_LAN87XX",
+                                        "range": null,
+                                        "title": "LAN87xx",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                        "help": "DP83848 is a single port 10/100Mb/s Ethernet Physical Layer Transceiver.\nGoto http://www.ti.com/product/DP83848J for more information about it.",
+                                        "id": "BRIDGE_ETH_PHY_DP83848",
+                                        "name": "BRIDGE_ETH_PHY_DP83848",
+                                        "range": null,
+                                        "title": "DP83848",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                        "help": "With the KSZ80xx series, Microchip offers single-chip 10BASE-T/100BASE-TX\nEthernet Physical Layer Tranceivers (PHY).\nThe following chips are supported: KSZ8001, KSZ8021, KSZ8031, KSZ8041,\n    KSZ8051, KSZ8061, KSZ8081, KSZ8091\nGoto https://www.microchip.com for more information about them.",
+                                        "id": "BRIDGE_ETH_PHY_KSZ80XX",
+                                        "name": "BRIDGE_ETH_PHY_KSZ80XX",
+                                        "range": null,
+                                        "title": "KSZ80xx",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "id": "component-config-bridge-configuration-eth-configuration-bridge-eth-phy-model",
+                                "title": "Bridge ETH PHY Model",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SMI MDC.",
+                                "id": "BRIDGE_ETH_MDC_GPIO",
+                                "name": "BRIDGE_ETH_MDC_GPIO",
+                                "range": null,
+                                "title": "SMI MDC GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SMI MDIO.",
+                                "id": "BRIDGE_ETH_MDIO_GPIO",
+                                "name": "BRIDGE_ETH_MDIO_GPIO",
+                                "range": null,
+                                "title": "SMI MDIO GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used to reset PHY chip.\nSet to -1 to disable PHY chip hardware reset.",
+                                "id": "BRIDGE_ETH_PHY_RST_GPIO",
+                                "name": "BRIDGE_ETH_PHY_RST_GPIO",
+                                "range": null,
+                                "title": "PHY Reset GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_INTERNAL_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set PHY address according your board schematic.",
+                                "id": "BRIDGE_ETH_PHY_ADDR",
+                                "name": "BRIDGE_ETH_PHY_ADDR",
+                                "range": null,
+                                "title": "PHY Address",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the SPI host used to communicate with the SPI Ethernet Controller.",
+                                "id": "BRIDGE_ETH_SPI_HOST",
+                                "name": "BRIDGE_ETH_SPI_HOST",
+                                "range": null,
+                                "title": "SPI Host Number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SPI SCLK.",
+                                "id": "BRIDGE_ETH_SPI_SCLK_GPIO",
+                                "name": "BRIDGE_ETH_SPI_SCLK_GPIO",
+                                "range": null,
+                                "title": "SPI SCLK GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SPI MOSI.",
+                                "id": "BRIDGE_ETH_SPI_MOSI_GPIO",
+                                "name": "BRIDGE_ETH_SPI_MOSI_GPIO",
+                                "range": null,
+                                "title": "SPI MOSI GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SPI MISO.",
+                                "id": "BRIDGE_ETH_SPI_MISO_GPIO",
+                                "name": "BRIDGE_ETH_SPI_MISO_GPIO",
+                                "range": null,
+                                "title": "SPI MISO GPIO number",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the clock speed (MHz) of SPI interface.",
+                                "id": "BRIDGE_ETH_SPI_CLOCK_MHZ",
+                                "name": "BRIDGE_ETH_SPI_CLOCK_MHZ",
+                                "range": null,
+                                "title": "SPI clock speed (MHz)",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by SPI CS0, i.e. Chip Select associated with the first SPI Eth module).",
+                                "id": "BRIDGE_ETH_SPI_CS0_GPIO",
+                                "name": "BRIDGE_ETH_SPI_CS0_GPIO",
+                                "range": null,
+                                "title": "SPI CS0 GPIO number for SPI Ethernet module #1",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used by the first SPI Ethernet module interrupt line.",
+                                "id": "BRIDGE_ETH_SPI_INT0_GPIO",
+                                "name": "BRIDGE_ETH_SPI_INT0_GPIO",
+                                "range": null,
+                                "title": "Interrupt GPIO number SPI Ethernet module #1",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the GPIO number used to reset PHY chip on the first SPI Ethernet module.\nSet to -1 to disable PHY chip hardware reset.",
+                                "id": "BRIDGE_ETH_SPI_PHY_RST0_GPIO",
+                                "name": "BRIDGE_ETH_SPI_PHY_RST0_GPIO",
+                                "range": null,
+                                "title": "PHY Reset GPIO number of SPI Ethernet Module #1",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_USE_SPI_ETHERNET && (BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET)",
+                                "help": "Set the first SPI Ethernet module PHY address according your board schematic.",
+                                "id": "BRIDGE_ETH_SPI_PHY_ADDR0",
+                                "name": "BRIDGE_ETH_SPI_PHY_ADDR0",
+                                "range": null,
+                                "title": "PHY Address of SPI Ethernet Module #1",
+                                "type": "int"
+                            }
+                        ],
+                        "depends_on": "BRIDGE_EXTERNAL_NETIF_ETHERNET || BRIDGE_DATA_FORWARDING_NETIF_ETHERNET",
+                        "id": "component-config-bridge-configuration-eth-configuration",
+                        "title": "ETH Configuration",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_SERIAL_CONFIG>",
+                                        "help": "Connect to modem via UART.",
+                                        "id": "BRIDGE_SERIAL_VIA_UART",
+                                        "name": "BRIDGE_SERIAL_VIA_UART",
+                                        "range": null,
+                                        "title": "UART",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(IDF_TARGET_ESP32S2 || IDF_TARGET_ESP32S3) && <choice BRIDGE_SERIAL_CONFIG>",
+                                        "help": "Connect to modem via USB (CDC-ACM class). For IDF version >= 4.4.",
+                                        "id": "BRIDGE_SERIAL_VIA_USB",
+                                        "name": "BRIDGE_SERIAL_VIA_USB",
+                                        "range": null,
+                                        "title": "USB",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": null,
+                                "id": "component-config-bridge-configuration-modem-configuration-choose-the-interface-of-the-modem-uart-or-usb-",
+                                "name": "BRIDGE_SERIAL_CONFIG",
+                                "title": "Choose the interface of the modem (UART or USB)",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_MODEM_DEVICE>",
+                                        "help": "SIMCom SIM800L is a GSM/GPRS module.\nIt supports Quad-band 850/900/1800/1900MHz.",
+                                        "id": "BRIDGE_MODEM_DEVICE_SIM800",
+                                        "name": "BRIDGE_MODEM_DEVICE_SIM800",
+                                        "range": null,
+                                        "title": "SIM800",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_MODEM_DEVICE>",
+                                        "help": "Quectel BG96 is a series of LTE Cat M1/Cat NB1/EGPRS module.",
+                                        "id": "BRIDGE_MODEM_DEVICE_BG96",
+                                        "name": "BRIDGE_MODEM_DEVICE_BG96",
+                                        "range": null,
+                                        "title": "BG96",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_MODEM_DEVICE>",
+                                        "help": "SIM7000 is a Multi-Band LTE-FDD and GSM/GPRS/EDGE module.",
+                                        "id": "BRIDGE_MODEM_DEVICE_SIM7000",
+                                        "name": "BRIDGE_MODEM_DEVICE_SIM7000",
+                                        "range": null,
+                                        "title": "SIM7000",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_MODEM_DEVICE>",
+                                        "help": "SIM7070 is Multi-Band CAT M and NB IoT module.",
+                                        "id": "BRIDGE_MODEM_DEVICE_SIM7070",
+                                        "name": "BRIDGE_MODEM_DEVICE_SIM7070",
+                                        "range": null,
+                                        "title": "SIM7070",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "<choice BRIDGE_MODEM_DEVICE>",
+                                        "help": "SIM7600 is a Multi-Band LTE-TDD/LTE-FDD/HSPA+ and GSM/GPRS/EDGE module.",
+                                        "id": "BRIDGE_MODEM_DEVICE_SIM7600",
+                                        "name": "BRIDGE_MODEM_DEVICE_SIM7600",
+                                        "range": null,
+                                        "title": "SIM7600",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Select modem device connected to the ESP DTE.",
+                                "id": "component-config-bridge-configuration-modem-configuration-choose-supported-modem-device-dce-",
+                                "name": "BRIDGE_MODEM_DEVICE",
+                                "title": "Choose supported modem device (DCE)",
+                                "type": "choice"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": null,
+                                "id": "MODEM_RESET_GPIO",
+                                "name": "MODEM_RESET_GPIO",
+                                "range": null,
+                                "title": "Modem reset control GPIO, set 0 if not use",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Set APN (Access Point Name), a logical name to choose data network",
+                                "id": "BRIDGE_MODEM_PPP_APN",
+                                "name": "BRIDGE_MODEM_PPP_APN",
+                                "range": null,
+                                "title": "Set MODEM APN",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!BRIDGE_MODEM_PPP_AUTH_NONE && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Set username for PPP Authentication.",
+                                "id": "BRIDGE_MODEM_PPP_AUTH_USERNAME",
+                                "name": "BRIDGE_MODEM_PPP_AUTH_USERNAME",
+                                "range": null,
+                                "title": "Set username for authentication",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!BRIDGE_MODEM_PPP_AUTH_NONE && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Set password for PPP Authentication.",
+                                "id": "BRIDGE_MODEM_PPP_AUTH_PASSWORD",
+                                "name": "BRIDGE_MODEM_PPP_AUTH_PASSWORD",
+                                "range": null,
+                                "title": "Set password for authentication",
+                                "type": "string"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Set to true for the PPP client to skip authentication",
+                                "id": "BRIDGE_MODEM_PPP_AUTH_NONE",
+                                "name": "BRIDGE_MODEM_PPP_AUTH_NONE",
+                                "range": null,
+                                "title": "Skip PPP authentication",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_NEED_SIM_PIN && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Pin to unlock the SIM",
+                                        "id": "BRIDGE_SIM_PIN",
+                                        "name": "BRIDGE_SIM_PIN",
+                                        "range": null,
+                                        "title": "Set SIM PIN",
+                                        "type": "string"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "help": "Enable to set SIM PIN before starting the example",
+                                "id": "BRIDGE_NEED_SIM_PIN",
+                                "name": "BRIDGE_NEED_SIM_PIN",
+                                "range": null,
+                                "title": "SIM PIN needed",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_USB && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the USB Vendor ID for 4G Modem",
+                                        "id": "BRIDGE_MODEM_USB_VID",
+                                        "name": "BRIDGE_MODEM_USB_VID",
+                                        "range": null,
+                                        "title": "USB Vendor ID",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_USB && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the USB Product ID for 4G Modem",
+                                        "id": "BRIDGE_MODEM_USB_PID",
+                                        "name": "BRIDGE_MODEM_USB_PID",
+                                        "range": null,
+                                        "title": "USB Product ID",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_USB && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the USB interface number for 4G Modem",
+                                        "id": "BRIDGE_MODEM_USB_INTERFACE_NUMBER",
+                                        "name": "BRIDGE_MODEM_USB_INTERFACE_NUMBER",
+                                        "range": null,
+                                        "title": "USB interface number",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_SERIAL_VIA_USB && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "id": "component-config-bridge-configuration-modem-configuration-usb-configuration",
+                                "title": "USB Configuration",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the GPIO number used by uart Tx",
+                                        "id": "BRIDGE_MODEM_UART_TX_PIN",
+                                        "name": "BRIDGE_MODEM_UART_TX_PIN",
+                                        "range": null,
+                                        "title": "UART Tx GPIO number of Modem",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the GPIO number used by uart Rx",
+                                        "id": "BRIDGE_MODEM_UART_RX_PIN",
+                                        "name": "BRIDGE_MODEM_UART_RX_PIN",
+                                        "range": null,
+                                        "title": "UART Rx GPIO number of Modem",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Pin number of UART RTS.",
+                                        "id": "BRIDGE_MODEM_UART_RTS_PIN",
+                                        "name": "BRIDGE_MODEM_UART_RTS_PIN",
+                                        "range": null,
+                                        "title": "RTS Pin Number",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Pin number of UART CTS.",
+                                        "id": "BRIDGE_MODEM_UART_CTS_PIN",
+                                        "name": "BRIDGE_MODEM_UART_CTS_PIN",
+                                        "range": null,
+                                        "title": "CTS Pin Number",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the baud rate of uart",
+                                        "id": "BRIDGE_MODEM_BAUD_RATE",
+                                        "name": "BRIDGE_MODEM_BAUD_RATE",
+                                        "range": null,
+                                        "title": "UART baud rate of Modem",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Stack size of UART event task.",
+                                        "id": "BRIDGE_MODEM_UART_EVENT_TASK_STACK_SIZE",
+                                        "name": "BRIDGE_MODEM_UART_EVENT_TASK_STACK_SIZE",
+                                        "range": null,
+                                        "title": "UART Event Task Stack Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Priority of UART event task.",
+                                        "id": "BRIDGE_MODEM_UART_EVENT_TASK_PRIORITY",
+                                        "name": "BRIDGE_MODEM_UART_EVENT_TASK_PRIORITY",
+                                        "range": null,
+                                        "title": "UART Event Task Priority",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Length of UART event queue.",
+                                        "id": "BRIDGE_MODEM_UART_EVENT_QUEUE_SIZE",
+                                        "name": "BRIDGE_MODEM_UART_EVENT_QUEUE_SIZE",
+                                        "range": null,
+                                        "title": "UART Event Queue Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Length of UART pattern queue.",
+                                        "id": "BRIDGE_MODEM_UART_PATTERN_QUEUE_SIZE",
+                                        "name": "BRIDGE_MODEM_UART_PATTERN_QUEUE_SIZE",
+                                        "range": null,
+                                        "title": "UART Pattern Queue Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Buffer size of UART TX buffer.",
+                                        "id": "BRIDGE_MODEM_UART_TX_BUFFER_SIZE",
+                                        "name": "BRIDGE_MODEM_UART_TX_BUFFER_SIZE",
+                                        "range": null,
+                                        "title": "UART TX Buffer Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Buffer size of UART RX buffer.",
+                                        "id": "BRIDGE_MODEM_UART_RX_BUFFER_SIZE",
+                                        "name": "BRIDGE_MODEM_UART_RX_BUFFER_SIZE",
+                                        "range": null,
+                                        "title": "UART RX Buffer Size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "<choice BRIDGE_FLOW_CONTROL>",
+                                                "help": null,
+                                                "id": "BRIDGE_FLOW_CONTROL_NONE",
+                                                "name": "BRIDGE_FLOW_CONTROL_NONE",
+                                                "range": null,
+                                                "title": "No control flow",
+                                                "type": "bool"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "<choice BRIDGE_FLOW_CONTROL>",
+                                                "help": null,
+                                                "id": "BRIDGE_FLOW_CONTROL_SW",
+                                                "name": "BRIDGE_FLOW_CONTROL_SW",
+                                                "range": null,
+                                                "title": "SW control flow",
+                                                "type": "bool"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "<choice BRIDGE_FLOW_CONTROL>",
+                                                "help": null,
+                                                "id": "BRIDGE_FLOW_CONTROL_HW",
+                                                "name": "BRIDGE_FLOW_CONTROL_HW",
+                                                "range": null,
+                                                "title": "HW control flow",
+                                                "type": "bool"
+                                            }
+                                        ],
+                                        "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                        "help": "Set the modem's preferred control flow",
+                                        "id": "component-config-bridge-configuration-modem-configuration-uart-configuration-set-preferred-modem-control-flow",
+                                        "name": "BRIDGE_FLOW_CONTROL",
+                                        "title": "Set preferred modem control flow",
+                                        "type": "choice"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_SERIAL_VIA_UART && BRIDGE_EXTERNAL_NETIF_MODEM",
+                                "id": "component-config-bridge-configuration-modem-configuration-uart-configuration",
+                                "title": "UART Configuration",
+                                "type": "menu"
+                            }
+                        ],
+                        "depends_on": "BRIDGE_EXTERNAL_NETIF_MODEM",
+                        "id": "component-config-bridge-configuration-modem-configuration",
+                        "title": "Modem Configuration",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Select the GPIO pin for MOSI",
+                                        "id": "GPIO_MOSI",
+                                        "name": "GPIO_MOSI",
+                                        "range": null,
+                                        "title": "GPIO pin for MOSI",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Select the GPIO pin for MISO",
+                                        "id": "GPIO_MISO",
+                                        "name": "GPIO_MISO",
+                                        "range": null,
+                                        "title": "GPIO pin for MISO",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Select the GPIO pin for SCLK",
+                                        "id": "GPIO_SCLK",
+                                        "name": "GPIO_SCLK",
+                                        "range": null,
+                                        "title": "GPIO pin for SCLK",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Select the GPIO pin for CS",
+                                        "id": "GPIO_CS",
+                                        "name": "GPIO_CS",
+                                        "range": null,
+                                        "title": "GPIO pin for CS",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "GPIO pin to use for handshake with other spi controller",
+                                        "id": "ESP_SPI_GPIO_HANDSHAKE",
+                                        "name": "ESP_SPI_GPIO_HANDSHAKE",
+                                        "range": null,
+                                        "title": "GPIO pin for handshake",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "GPIO pin for indicating host that SPI slave has data to be read by host",
+                                        "id": "ESP_SPI_GPIO_DATA_READY",
+                                        "name": "ESP_SPI_GPIO_DATA_READY",
+                                        "range": null,
+                                        "title": "GPIO pin for data ready interrupt",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Set the clock speed (MHz) of SPI interface.",
+                                        "id": "SPI_CLK_MHZ",
+                                        "name": "SPI_CLK_MHZ",
+                                        "range": null,
+                                        "title": "SPI clock speed (MHz)",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Smaller Tx queue sizes will reduce data throughput rates(ESP == SPI ==> Host)",
+                                        "id": "ESP_SPI_TX_Q_SIZE",
+                                        "name": "ESP_SPI_TX_Q_SIZE",
+                                        "range": null,
+                                        "title": "ESP to Host SPI queue size",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "Smaller Rx queue sizes will reduce data throughput rates(ESP <== SPI == Host)",
+                                        "id": "ESP_SPI_RX_Q_SIZE",
+                                        "name": "ESP_SPI_RX_Q_SIZE",
+                                        "range": null,
+                                        "title": "Host to ESP SPI queue size",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "(BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                "id": "component-config-bridge-configuration-bridge-driver-configuration-spi-configuration",
+                                "title": "SPI Configuration",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "(BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                        "help": "ENABLE/DISABLE software SDIO checksum",
+                                        "id": "ESP_SDIO_CHECKSUM",
+                                        "name": "ESP_SDIO_CHECKSUM",
+                                        "range": null,
+                                        "title": "SDIO checksum ENABLE/DISABLE",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "(BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO) && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                "id": "component-config-bridge-configuration-bridge-driver-configuration-sdio-configuration",
+                                "title": "SDIO Configuration",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "(IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32S3 || IDF_TARGET_ESP32C2 || IDF_TARGET_ESP32C6) && BT_CTRL_HCI_MODE_UART_H4 && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                "help": "UART Baudrate for HCI over ESP32C2/C3/C6/S3. Please use standard baudrate.",
+                                "id": "EXAMPLE_HCI_UART_BAUDRATE",
+                                "name": "EXAMPLE_HCI_UART_BAUDRATE",
+                                "range": null,
+                                "title": "UART Baudrate for HCI: Only applicable for ESP32-C3/ESP32-S3",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "help": "Default task size of ESP-Hosted tasks",
+                                "id": "ESP_DEFAULT_TASK_STACK_SIZE",
+                                "name": "ESP_DEFAULT_TASK_STACK_SIZE",
+                                "range": null,
+                                "title": "ESP-Hosted task stack size",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "help": "Default task priority of ESP-Hosted tasks",
+                                "id": "ESP_DEFAULT_TASK_PRIO",
+                                "name": "ESP_DEFAULT_TASK_PRIO",
+                                "range": null,
+                                "title": "ESP-Hosted task priority",
+                                "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "help": "Cache allocated memory - reduces number of malloc calls",
+                                "id": "ESP_CACHE_MALLOC",
+                                "name": "ESP_CACHE_MALLOC",
+                                "range": null,
+                                "title": "Cache allocated memory like mempool - helps to reduce malloc calls",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                        "help": "Enable/disable debug prints in serial driver data path",
+                                        "id": "ESP_SERIAL_DEBUG",
+                                        "name": "ESP_SERIAL_DEBUG",
+                                        "range": null,
+                                        "title": "Debug Serial driver data path",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                        "help": "Enable/disable debug prints in wlan driver data path",
+                                        "id": "ESP_WLAN_DEBUG",
+                                        "name": "ESP_WLAN_DEBUG",
+                                        "range": null,
+                                        "title": "Debug Wlan driver data path",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "BRIDGE_BT_ENABLED && (BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO)",
+                                                "help": "Enable/disable debug prints in Bluetooth driver data path",
+                                                "id": "ESP_BT_DEBUG",
+                                                "name": "ESP_BT_DEBUG",
+                                                "range": null,
+                                                "title": "Debug Bluetooth driver data path",
+                                                "type": "bool"
+                                            }
+                                        ],
+                                        "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                        "help": "Enable/disable debug prints in Bluetooth driver data path",
+                                        "id": "BRIDGE_BT_ENABLED",
+                                        "name": "BRIDGE_BT_ENABLED",
+                                        "range": null,
+                                        "title": "Enable Bluetooth driver",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                                "id": "component-config-bridge-configuration-bridge-driver-configuration-enable-debug-logs",
+                                "title": "Enable Debug logs",
+                                "type": "menu"
+                            }
+                        ],
+                        "depends_on": "BRIDGE_EXTERNAL_NETIF_SPI || BRIDGE_DATA_FORWARDING_NETIF_SPI || BRIDGE_EXTERNAL_NETIF_SDIO || BRIDGE_DATA_FORWARDING_NETIF_SDIO",
+                        "id": "component-config-bridge-configuration-bridge-driver-configuration",
+                        "title": "Bridge Driver Configuration",
+                        "type": "menu"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-bridge-configuration",
+                "title": "Bridge Configuration",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "MESH_LITE_VENDOR_ID_0",
+                                        "name": "MESH_LITE_VENDOR_ID_0",
+                                        "range": null,
+                                        "title": "VENDOR_ID_0 for Mesh-Lite",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "MESH_LITE_VENDOR_ID_1",
+                                        "name": "MESH_LITE_VENDOR_ID_1",
+                                        "range": null,
+                                        "title": "VENDOR_ID_1 for Mesh-Lite",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "MESH_LITE_ID",
+                                        "name": "MESH_LITE_ID",
+                                        "range": null,
+                                        "title": "MESH_ID for Mesh-Lite",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "MESH_LITE_MAX_ROUTER_NUMBER",
+                                        "name": "MESH_LITE_MAX_ROUTER_NUMBER",
+                                        "range": null,
+                                        "title": "Maximum number of trace router number",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "MESH_LITE_MAXIMUM_LEVEL_ALLOWED",
+                                        "name": "MESH_LITE_MAXIMUM_LEVEL_ALLOWED",
+                                        "range": null,
+                                        "title": "The maximum level allowed",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "MESH_LITE_NODE_INFO_REPORT && MESH_LITE_ENABLE",
+                                                "help": null,
+                                                "id": "MESH_LITE_REPORT_INTERVAL",
+                                                "name": "MESH_LITE_REPORT_INTERVAL",
+                                                "range": null,
+                                                "title": "Report time interval(s)",
+                                                "type": "int"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "MESH_LITE_NODE_INFO_REPORT && MESH_LITE_ENABLE",
+                                                "help": null,
+                                                "id": "MESH_LITE_MAXIMUM_NODE_NUMBER",
+                                                "name": "MESH_LITE_MAXIMUM_NODE_NUMBER",
+                                                "range": null,
+                                                "title": "The maximum node number",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": "Sub-nodes report information regularly,\nand the root node collects and summarizes the mesh nodes information.",
+                                        "id": "MESH_LITE_NODE_INFO_REPORT",
+                                        "name": "MESH_LITE_NODE_INFO_REPORT",
+                                        "range": null,
+                                        "title": "Enable node info report",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": "Join the mesh network directly when starting up, regardless of whether Wi-Fi information is configured or not.\nIf disabled, it will only join the mesh network after configuring Wi-Fi information.",
+                                        "id": "JOIN_MESH_WITHOUT_CONFIGURED_WIFI_INFO",
+                                        "name": "JOIN_MESH_WITHOUT_CONFIGURED_WIFI_INFO",
+                                        "range": null,
+                                        "title": "Join Mesh without configured with information",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": "If enabled, it will join Mesh no matter whether the node is connected to router",
+                                        "id": "JOIN_MESH_IGNORE_ROUTER_STATUS",
+                                        "name": "JOIN_MESH_IGNORE_ROUTER_STATUS",
+                                        "range": null,
+                                        "title": "Join Mesh no matter whether the node is connected to router",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": null,
+                                        "id": "LEAF_NODE",
+                                        "name": "LEAF_NODE",
+                                        "range": null,
+                                        "title": "Configure the node as a leaf node",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": "The device category, such as Light, Fun.",
+                                        "id": "DEVICE_CATEGORY",
+                                        "name": "DEVICE_CATEGORY",
+                                        "range": null,
+                                        "title": "Device Category",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "depends_on": "ESP_MESH_LITE_OTA_ENABLE && MESH_LITE_ENABLE",
+                                                        "help": "Setting a smaller default OTA_DATA_LEN size can save some RAM,\nbut the time spent by OTA will increase.",
+                                                        "id": "OTA_DATA_LEN",
+                                                        "name": "OTA_DATA_LEN",
+                                                        "range": null,
+                                                        "title": "Transmission data length of each packet",
+                                                        "type": "int"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "depends_on": "ESP_MESH_LITE_OTA_ENABLE && MESH_LITE_ENABLE",
+                                                        "help": "Must be a multiple of OTA_data_Len",
+                                                        "id": "OTA_WND_DEFAULT",
+                                                        "name": "OTA_WND_DEFAULT",
+                                                        "range": null,
+                                                        "title": "Default receive window size",
+                                                        "type": "int"
+                                                    }
+                                                ],
+                                                "depends_on": "ESP_MESH_LITE_OTA_ENABLE && MESH_LITE_ENABLE",
+                                                "id": "component-config-esp-wi-fi-mesh-lite-enable-mesh-lite-mesh-lite-info-configuration-enable-mesh-lite-ota-mesh-lite-ota",
+                                                "title": "Mesh-Lite OTA",
+                                                "type": "menu"
+                                            }
+                                        ],
+                                        "depends_on": "MESH_LITE_ENABLE",
+                                        "help": "Enable Mesh-Lite OTA,\nWhen the device receives an OTA instruction, it will first request new firmware from the parent node,\nif the parent node does not have one, it will continue to request from a higher-level node, and so on up to the root node,\nif the root node also does not have the corresponding version firmware, then the upgrade will begin from the external URL.",
+                                        "id": "ESP_MESH_LITE_OTA_ENABLE",
+                                        "name": "ESP_MESH_LITE_OTA_ENABLE",
+                                        "range": null,
+                                        "title": "Enable Mesh-Lite OTA",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "MESH_LITE_ENABLE",
+                                "id": "component-config-esp-wi-fi-mesh-lite-enable-mesh-lite-mesh-lite-info-configuration",
+                                "title": "Mesh-Lite info configuration",
+                                "type": "menu"
+                            }
+                        ],
+                        "depends_on": "BRIDGE_DATA_FORWARDING_NETIF_SOFTAP",
+                        "help": "Enable Mesh-Lite",
+                        "id": "MESH_LITE_ENABLE",
+                        "name": "MESH_LITE_ENABLE",
+                        "range": null,
+                        "title": "Enable Mesh-Lite",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-esp-wi-fi-mesh-lite",
+                "title": "ESP Wi-Fi Mesh Lite",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "TINYUSB",
+                                "help": "Specify verbosity of TinyUSB log output.",
+                                "id": "TINYUSB_DEBUG_LEVEL",
+                                "name": "TINYUSB_DEBUG_LEVEL",
+                                "range": [
+                                    0,
+                                    3
+                                ],
+                                "title": "TinyUSB log level (0-3)",
+                                "type": "int"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "This option allows to not create the FreeRTOS task during the driver initialization.\nUser will have to handle TinyUSB events manually.",
+                                        "id": "TINYUSB_NO_DEFAULT_TASK",
+                                        "name": "TINYUSB_NO_DEFAULT_TASK",
+                                        "range": null,
+                                        "title": "Do not create a TinyUSB task",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "!TINYUSB_NO_DEFAULT_TASK && TINYUSB",
+                                        "help": "Set the priority of the default TinyUSB main task.",
+                                        "id": "TINYUSB_TASK_PRIORITY",
+                                        "name": "TINYUSB_TASK_PRIORITY",
+                                        "range": null,
+                                        "title": "TinyUSB task priority",
+                                        "type": "int"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "!TINYUSB_NO_DEFAULT_TASK && TINYUSB",
+                                        "help": "Set the stack size of the default TinyUSB main task.",
+                                        "id": "TINYUSB_TASK_STACK_SIZE",
+                                        "name": "TINYUSB_TASK_STACK_SIZE",
+                                        "range": null,
+                                        "title": "TinyUSB task stack size (bytes)",
+                                        "type": "int"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-tinyusb-task-configuration",
+                                "title": "TinyUSB task configuration",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable this option, USB device will use Espressif's vendor ID as its VID.\nThis is helpful at product develop stage.",
+                                        "id": "TINYUSB_DESC_USE_ESPRESSIF_VID",
+                                        "name": "TINYUSB_DESC_USE_ESPRESSIF_VID",
+                                        "range": null,
+                                        "title": "VID: Use Espressif's vendor ID",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "!TINYUSB_DESC_USE_ESPRESSIF_VID && TINYUSB",
+                                        "help": "Custom Vendor ID.",
+                                        "id": "TINYUSB_DESC_CUSTOM_VID",
+                                        "name": "TINYUSB_DESC_CUSTOM_VID",
+                                        "range": null,
+                                        "title": "VID: Custom vendor ID",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Default TinyUSB PID assigning uses values 0x4000...0x4007.",
+                                        "id": "TINYUSB_DESC_USE_DEFAULT_PID",
+                                        "name": "TINYUSB_DESC_USE_DEFAULT_PID",
+                                        "range": null,
+                                        "title": "PID: Use a default PID assigned to TinyUSB",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "!TINYUSB_DESC_USE_DEFAULT_PID && TINYUSB",
+                                        "help": "Custom Product ID.",
+                                        "id": "TINYUSB_DESC_CUSTOM_PID",
+                                        "name": "TINYUSB_DESC_CUSTOM_PID",
+                                        "range": null,
+                                        "title": "PID: Custom product ID",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Version of the firmware of the USB device.",
+                                        "id": "TINYUSB_DESC_BCD_DEVICE",
+                                        "name": "TINYUSB_DESC_BCD_DEVICE",
+                                        "range": null,
+                                        "title": "bcdDevice",
+                                        "type": "hex"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Name of the manufacturer of the USB device.",
+                                        "id": "TINYUSB_DESC_MANUFACTURER_STRING",
+                                        "name": "TINYUSB_DESC_MANUFACTURER_STRING",
+                                        "range": null,
+                                        "title": "Manufacturer name",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Name of the USB device.",
+                                        "id": "TINYUSB_DESC_PRODUCT_STRING",
+                                        "name": "TINYUSB_DESC_PRODUCT_STRING",
+                                        "range": null,
+                                        "title": "Product name",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Serial number of the USB device.",
+                                        "id": "TINYUSB_DESC_SERIAL_STRING",
+                                        "name": "TINYUSB_DESC_SERIAL_STRING",
+                                        "range": null,
+                                        "title": "Serial string",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
+                                        "help": "Name of the CDC device.",
+                                        "id": "TINYUSB_DESC_CDC_STRING",
+                                        "name": "TINYUSB_DESC_CDC_STRING",
+                                        "range": null,
+                                        "title": "CDC Device String",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_MSC_ENABLED && TINYUSB",
+                                        "help": "Name of the MSC device.",
+                                        "id": "TINYUSB_DESC_MSC_STRING",
+                                        "name": "TINYUSB_DESC_MSC_STRING",
+                                        "range": null,
+                                        "title": "MSC Device String",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_HID_ENABLED && TINYUSB",
+                                        "help": "Name of the HID device",
+                                        "id": "TINYUSB_DESC_HID_STRING",
+                                        "name": "TINYUSB_DESC_HID_STRING",
+                                        "range": null,
+                                        "title": "HID Device String",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_NET_ENABLED && TINYUSB",
+                                        "help": "Name of the NET device.",
+                                        "id": "TINYUSB_DESC_NET_STRING",
+                                        "name": "TINYUSB_DESC_NET_STRING",
+                                        "range": null,
+                                        "title": "NET Device String",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB_BTH_ENABLED && TINYUSB",
+                                        "help": "Name of the BTH device.",
+                                        "id": "TINYUSB_DESC_BTH_STRING",
+                                        "name": "TINYUSB_DESC_BTH_STRING",
+                                        "range": null,
+                                        "title": "BTH String",
+                                        "type": "string"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-descriptor-configuration",
+                                "title": "Descriptor configuration",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_MSC_ENABLED && TINYUSB",
+                                                "help": "MSC FIFO size, in bytes.",
+                                                "id": "TINYUSB_MSC_BUFSIZE",
+                                                "name": "TINYUSB_MSC_BUFSIZE",
+                                                "range": null,
+                                                "title": "MSC FIFO size",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB MSC feature.",
+                                        "id": "TINYUSB_MSC_ENABLED",
+                                        "name": "TINYUSB_MSC_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB MSC feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-massive-storage-class-msc-",
+                                "title": "Massive Storage Class (MSC)",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
+                                                "help": "CDC FIFO size of RX channel.",
+                                                "id": "TINYUSB_CDC_RX_BUFSIZE",
+                                                "name": "TINYUSB_CDC_RX_BUFSIZE",
+                                                "range": null,
+                                                "title": "CDC FIFO size of RX channel",
+                                                "type": "int"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
+                                                "help": "CDC FIFO size of TX channel.",
+                                                "id": "TINYUSB_CDC_TX_BUFSIZE",
+                                                "name": "TINYUSB_CDC_TX_BUFSIZE",
+                                                "range": null,
+                                                "title": "CDC FIFO size of TX channel",
+                                                "type": "int"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "depends_on": "TINYUSB_CDCACM_ENABLED && TINYUSB_CDC_ENABLED && TINYUSB",
+                                                                "help": "Number of Serial (CDC) Port.",
+                                                                "id": "TINYUSB_CDC_PORT_NUM",
+                                                                "name": "TINYUSB_CDC_PORT_NUM",
+                                                                "range": null,
+                                                                "title": "Number of Serial (CDC) Port",
+                                                                "type": "int"
+                                                            }
+                                                        ],
+                                                        "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
+                                                        "help": "Enable TinyUSB CDC-ACM feature.",
+                                                        "id": "TINYUSB_CDCACM_ENABLED",
+                                                        "name": "TINYUSB_CDCACM_ENABLED",
+                                                        "range": null,
+                                                        "title": "Enable TinyUSB CDC-ACM feature",
+                                                        "type": "bool"
+                                                    }
+                                                ],
+                                                "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
+                                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-communication-device-class-cdc--enable-tinyusb-cdc-feature-abstract-control-model-acm-",
+                                                "title": "Abstract Control Model (ACM)",
+                                                "type": "menu"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB CDC feature.",
+                                        "id": "TINYUSB_CDC_ENABLED",
+                                        "name": "TINYUSB_CDC_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB CDC feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-communication-device-class-cdc-",
+                                "title": "Communication Device Class (CDC)",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB WebUSB feature.",
+                                        "id": "TINYUSB_WEBUSB_ENABLED",
+                                        "name": "TINYUSB_WEBUSB_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB WebUSB feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-webusb",
+                                "title": "WebUSB",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_HID_ENABLED && TINYUSB",
+                                                "help": "HID FIFO size",
+                                                "id": "TINYUSB_HID_BUFSIZE",
+                                                "name": "TINYUSB_HID_BUFSIZE",
+                                                "range": null,
+                                                "title": "HID FIFO size",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB HID feature.",
+                                        "id": "TINYUSB_HID_ENABLED",
+                                        "name": "TINYUSB_HID_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB HID feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-human-interface-device-class-hid-",
+                                "title": "Human Interface Device Class (HID)",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_NET_ENABLED && TINYUSB",
+                                                "help": "Vendor description.",
+                                                "id": "TINYUSB_RNDIS_VENDOR",
+                                                "name": "TINYUSB_RNDIS_VENDOR",
+                                                "range": null,
+                                                "title": "USB Vendor",
+                                                "type": "string"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "depends_on": "<choice TINYUSB_NET>",
+                                                        "help": "RNDIS.",
+                                                        "id": "TINYUSB_NET_RNDIS",
+                                                        "name": "TINYUSB_NET_RNDIS",
+                                                        "range": null,
+                                                        "title": "RNDIS",
+                                                        "type": "bool"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "depends_on": "<choice TINYUSB_NET>",
+                                                        "help": "CDC-ECM.",
+                                                        "id": "TINYUSB_NET_ECM",
+                                                        "name": "TINYUSB_NET_ECM",
+                                                        "range": null,
+                                                        "title": "CDC-ECM",
+                                                        "type": "bool"
+                                                    }
+                                                ],
+                                                "depends_on": "TINYUSB_NET_ENABLED && TINYUSB",
+                                                "help": "RNDIS and CDC-ECM\n- Windows only works with RNDIS\n- MacOS only works with CDC-ECM\n- Linux will work on both",
+                                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-usb-network-class-rndis-ecm--enable-tinyusb-net-driver-choose-a-network-communication-standard",
+                                                "name": "TINYUSB_NET",
+                                                "title": "Choose a network communication standard",
+                                                "type": "choice"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable USB NET TinyUSB driver.",
+                                        "id": "TINYUSB_NET_ENABLED",
+                                        "name": "TINYUSB_NET_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB NET driver",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-usb-network-class-rndis-ecm-",
+                                "title": "USB Network Class (RNDIS, ECM)",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_BTH_ENABLED && TINYUSB",
+                                                "help": "BTH ISO ALT COUNT.",
+                                                "id": "TINYUSB_BTH_ISO_ALT_COUNT",
+                                                "name": "TINYUSB_BTH_ISO_ALT_COUNT",
+                                                "range": null,
+                                                "title": "BTH ISO ALT COUNT",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB BTH feature.",
+                                        "id": "TINYUSB_BTH_ENABLED",
+                                        "name": "TINYUSB_BTH_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB BTH feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-bluetooth-host-class-bth-",
+                                "title": "Bluetooth Host Class (BTH)",
+                                "type": "menu"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "TINYUSB_DFU_ENABLED && TINYUSB",
+                                                "help": "DFU XFER BUFFSIZE.",
+                                                "id": "TINYUSB_DFU_BUFSIZE",
+                                                "name": "TINYUSB_DFU_BUFSIZE",
+                                                "range": null,
+                                                "title": "DFU XFER BUFFSIZE",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "TINYUSB",
+                                        "help": "Enable TinyUSB DFU feature.",
+                                        "id": "TINYUSB_DFU_ENABLED",
+                                        "name": "TINYUSB_DFU_ENABLED",
+                                        "range": null,
+                                        "title": "Enable TinyUSB DFU feature",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "TINYUSB",
+                                "id": "component-config-tinyusb-stack-use-tinyusb-stack-firmware-upgrade-class-dfu-",
+                                "title": "Firmware Upgrade Class (DFU)",
+                                "type": "menu"
+                            }
+                        ],
+                        "depends_on": "USB_OTG_SUPPORTED",
+                        "help": "Enable TinyUSB stack support.\nNote that, esp-idf only uses the device stack provided by TinyUSB.",
+                        "id": "TINYUSB",
+                        "name": "TINYUSB",
+                        "range": null,
+                        "title": "Use TinyUSB Stack",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-tinyusb-stack",
+                "title": "TinyUSB Stack",
+                "type": "menu"
             }
         ],
         "depends_on": null,

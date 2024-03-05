@@ -62,4 +62,12 @@
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/ulp/libulp.a
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/usb/libusb.a
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_modem/libespressif__esp_modem.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__usb_host_cdc_acm/libespressif__usb_host_cdc_acm.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_modem_usb_dte/libespressif__esp_modem_usb_dte.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__tinyusb/libespressif__tinyusb.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__esp_tinyusb/libespressif__esp_tinyusb.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__iot_bridge/libespressif__iot_bridge.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/espressif__mesh_lite/libespressif__mesh_lite.a
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/main/libmain.a
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/esp32-camera/libesp32-camera.a
