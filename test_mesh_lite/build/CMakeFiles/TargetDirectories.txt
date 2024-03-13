@@ -160,6 +160,13 @@
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/esp_partition/CMakeFiles/install/local.dir
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/esp_partition/CMakeFiles/install/strip.dir
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/blank_ota_data.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/read-otadata.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/read_otadata.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/erase-otadata.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/erase_otadata.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/otadata-flash.dir
+/Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/encrypted-otadata-flash.dir
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/edit_cache.dir
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/rebuild_cache.dir
 /Users/thanapoompumee/Documents/ESP/test_mesh_lite/test_mesh_lite/build/esp-idf/app_update/CMakeFiles/list_install_components.dir

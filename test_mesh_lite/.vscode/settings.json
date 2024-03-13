@@ -4,6 +4,6 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.port": "/dev/cu.usbserial-1110",
+  "idf.port": "/dev/cu.usbserial-1130",
   "idf.flashType": "UART"
 }
